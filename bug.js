@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if the data you're trying to access is not available or has been deleted.  This can happen due to asynchronous operations or race conditions.  For example, if you try to access a document from a Firestore collection before the document has been fully loaded, you might encounter an error.
